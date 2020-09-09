@@ -11,7 +11,7 @@ payment flow on the Paystack payment platform.
 
 To install using composer
 ```
-composer install perfectmak/paystack-php
+composer install putianxin/paystack-php
 ```
 
 ## Usage
