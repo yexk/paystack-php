@@ -26,6 +26,11 @@ class Transaction implements IResource
         return self::_create(self::url('/charge_token'), $params);
     }
 
+    public static function partialDebit(array $params)
+    {
+        return self::_create(self::url('/partial_debit'), $params);
+    }
+
     public static function verify($reference)
     {
         $url = self::url('/verify/'.$reference);
