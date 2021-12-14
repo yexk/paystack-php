@@ -64,6 +64,9 @@ trait ResourceTrait
 
     public function __get($key)
     {
+        if(!is_array($this->_attributes)){
+            return null;
+        }
         if(array_key_exists($key, $this->_attributes))
         {
             return $this->_attributes[$key];
