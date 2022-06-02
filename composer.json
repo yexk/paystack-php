@@ -1,18 +1,10 @@
 {
-	"name": "putianxin/paystack-php",
+    "name": "putianxin/paystack-php",
     "type": "library",
     "description": "Paystack Library for PHP",
     "keywords": ["paystack","payment"],
-    "homepage": "https://github.com/Seldaek/monolog",
+    "homepage": "https://github.com/yexk/paystack-php",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Pu Tianxin",
-            "email": "382820748@qq.com",
-            "homepage": "http://about.me/ptx",
-            "role": "Developer"
-        }
-    ],
     "require": {
         "php": ">=5.5",
         "nategood/httpful": "*"
