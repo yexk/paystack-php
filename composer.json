@@ -1,5 +1,5 @@
 {
-    "name": "putianxin/paystack-php",
+    "name": "yexk/paystack-php",
     "type": "library",
     "description": "Paystack Library for PHP",
     "keywords": ["paystack","payment"],
