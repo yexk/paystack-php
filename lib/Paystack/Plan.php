@@ -6,7 +6,7 @@ namespace Paystack;
 use Paystack\Interfaces\IResource;
 use Paystack\Traits\ResourceTrait;
 
-class Customer implements IResource
+class Plan implements IResource
 {
     use ResourceTrait;
 
